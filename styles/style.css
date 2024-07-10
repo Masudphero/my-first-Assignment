@@ -1,6 +1,25 @@
 *{@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');}
 
 
+.navtitle{
+   font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+}
+
+
+.resum-downlod{
+   width: 228px;
+   height: 58px;
+   background-color: aqua;
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   border-radius: 8px;
+   opacity: 0.8;
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+}
 .nave{
    display: flex;
    justify-content: space-between;
@@ -52,6 +71,7 @@ font-size: 20px;
 font-weight: 800;
 width: 208px;
 height: 66px;
+margin-top: 40px;
 }
 /* main section style */
 
@@ -64,10 +84,12 @@ height: 66px;
    border-radius: 12px;
    margin-top:12px ;
    justify-content: space-between;
+   background-color: white;
+   
    
 }
 .box-conteiner{
-  background-color: rgb(210, 252, 235);
+  background-color: rgb(217, 236, 228);
   width: 950px;
   margin-left: auto;
   margin-right: auto;
@@ -77,4 +99,16 @@ height: 66px;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+  
+}
+.more-contect{
+   width: 130px;
+   height: 40px;
+   margin-top: 30px;
+   background-color: white;
+  
+
+}
+.card{
+   margin-left: 30px;
 }
