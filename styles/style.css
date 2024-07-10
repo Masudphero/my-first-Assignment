@@ -143,7 +143,21 @@ cursor: pointer;
 
 
 .card-box{
-   background-color: aquamarine;
+   background: rgba(255, 76, 30, 0.05);
+   margin-left: 30px;
+   border-radius: 7px;
+   padding: 30px;
+   width: 300px;
+}
+.card-boxtu{
+   background: rgba(0, 76, 232, 0.05);
+   margin-left: 30px;
+   border-radius: 7px;
+   padding: 30px;
+   width: 300px;
+}
+.card-boxthri{
+   background: rgba(255, 223, 0, 0.05);
    margin-left: 30px;
    border-radius: 7px;
    padding: 30px;
@@ -154,17 +168,19 @@ cursor: pointer;
 
 
 
-/* footer */
+/* footer section  */
 .footer{
-   background-image: url("../assets/handshake.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
    height: 300px;
    width: 950px;
    margin-left: auto;
    margin-right: auto;
    border-radius: 20px;
    margin-top: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("../assets/handshake.jpg");
+  
+  
 
 }
 .footer h1{
@@ -196,13 +212,14 @@ cursor: pointer;
    cursor: pointer;
 }
 
-/* contact */
+/* contact form */
 .contact{
+   margin-top: 30px;
+   background-color: rgba(13, 19, 33, 0.03);
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin-top: 30px;
-   background-color: rgba(13, 19, 33, 0.03);
+ 
    
    }
   .contact >  ul{
