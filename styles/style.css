@@ -72,6 +72,7 @@ font-weight: 800;
 width: 208px;
 height: 66px;
 margin-top: 40px;
+cursor: pointer;
 }
 /* main section style */
 
@@ -91,6 +92,7 @@ margin-top: 40px;
 .box-conteiner{
   background-color: rgb(217, 236, 228);
   width: 950px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 12px;
@@ -112,3 +114,103 @@ margin-top: 40px;
 .card{
    margin-left: 30px;
 }
+/* thadr box */
+.pargerp{
+   text-align: center;
+   margin-top: 50px;
+}
+.youtube-vdio{
+ margin-left: 0 auto;
+ margin-left: auto;
+ text-align: center;
+
+ 
+
+}
+
+.youtube-vdio iframe{
+   border: 30px solid rgb(227, 240, 227);
+   border-radius: 17px;
+}
+
+.card-container{
+   display: flex;
+   width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+.card-box{
+   background-color: aquamarine;
+   margin-left: 30px;
+   border-radius: 7px;
+   padding: 30px;
+   width: 300px;
+}
+
+
+
+
+
+/* footer */
+.footer{
+   background-image: url("../assets/handshake.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   width: 950px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   margin-top: 20px;
+
+}
+.footer h1{
+   text-align: center;
+   color: white;
+}
+.footer p{
+   color: white;
+   text-align: center;
+
+}
+
+.input-filds{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.input-filds input[type="text"]{
+   width: 300px;
+   height: 40px;
+   border: none;
+   border-radius: 4px;
+}
+.input-filds input[type="submit"]{
+   width: 130px;
+   height: 40px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+/* contact */
+.contact{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+   background-color: rgba(13, 19, 33, 0.03);
+   
+   }
+  .contact >  ul{
+       display: flex;
+       align-items: center;  
+   }
+  .contact > ul li{
+       list-style: none;
+       margin-right:30px ;
+       
+   }
